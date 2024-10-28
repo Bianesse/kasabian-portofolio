@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-primary-black w-screen fixed top-0">
+    <div className="navbar bg-primary-black w-screen fixed top-0 z-10">
       <a className="btn btn-ghost text-xl text-primary-blue">Kasabian</a>
 
       <div className="navbar-end w-full text-primary-white lg:hidden">

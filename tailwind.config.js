@@ -12,7 +12,7 @@ export default {
       colors: {
         primary: {
           black: '#021526',
-          blue: '#03346E',
+          blue: '#1572b6',
           white: '#e5e7eb',
         },
         secondary: {
