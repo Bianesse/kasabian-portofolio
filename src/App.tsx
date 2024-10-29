@@ -1,7 +1,7 @@
-import Header from "./components/header.tsx";
+import Header from "./Layout/header.tsx";
 import Navbar from "./components/navbar.tsx";
-import AboutMe from "./components/aboutme.tsx";
-import Skills from "./components/skills.tsx";
+import AboutMe from "./Layout/aboutme.tsx";
+import Skills from "./Layout/skills.tsx";
 
 function App() {
   return (

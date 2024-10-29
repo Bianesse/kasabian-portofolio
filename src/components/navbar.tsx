@@ -40,25 +40,37 @@ const Navbar = () => {
           {isDropdownOpen && (
             <ul
               tabIndex={0}
-              className="menu menu-md dropdown-content bg-secondary-blue rounded-box z-[1] mt-3 w-96 shadow"
+              className="menu menu-md dropdown-content bg-secondary-blue rounded-box z-[1] m-auto w-screen shadow"
             >
               <li>
-                <a href="#home">Home</a>
+                <Link to="home" smooth={true} duration={500}>
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#about">About</a>
+                <Link to="about" smooth={true} duration={500}>
+                  About
+                </Link>
               </li>
               <li>
-                <a>Skills</a>
+                <Link to="skills" smooth={true} duration={500}>
+                  Skills
+                </Link>
               </li>
               <li>
-                <a>Service</a>
+                <Link to="service" smooth={true} duration={500}>
+                  Service
+                </Link>
               </li>
               <li>
-                <a>Portfolio</a>
+                <Link to="portofolio" smooth={true} duration={500}>
+                  Portofolio
+                </Link>
               </li>
               <li>
-                <a>Contact Me</a>
+                <Link to="contact" smooth={true} duration={500}>
+                  Contact
+                </Link>
               </li>
             </ul>
           )}
@@ -78,7 +90,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-          <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
@@ -88,7 +100,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-          <Link to="portofolio" smooth={true} duration={500}>
+            <Link to="portofolio" smooth={true} duration={500}>
               Portofolio
             </Link>
           </li>
