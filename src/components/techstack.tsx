@@ -11,7 +11,7 @@ const TechStack = () => {
     AOS.init({ duration: 500, once: false });
   }, []);
   return (
-    <div className="w-full md:w-3/4 mx-auto py-20 px-8">
+    <div className="w-full lg:w-3/4 mx-auto py-20 px-8">
       <h1 className="text-2xl md:text-3xl font-bold text-primary-white">
         Front End
       </h1>

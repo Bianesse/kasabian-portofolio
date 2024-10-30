@@ -9,23 +9,34 @@ const AboutMe = () => {
 
   return (
     <div className="bg-primary-blue" id="about">
-      <div className="w-full text-end md:w-3/4 mx-auto py-20 px-8">
-        <h1
-          className="text-5xl md:text-8xl font-bold text-primary-white"
-          data-aos="fade-right"
-        >
-          About Me
-        </h1>
-        <h2
-          className="text-md md:text-md text-primary-white font-semibold w-3/4 md:w-1/2 ml-auto"
-          data-aos="fade-right"
-        >
-          I'm an aspiring Full Stack Developer specializing in Web Development,
-          an enthusiastic thinker, and always looking for new challenges to
-          learn and grow.
-        </h2>
+      <div className="w-full border-2 text-end md:w-3/4 mx-auto py-20 px-8">
+        <div className="flex flex-col-reverse lg:flex-row">
+          <div className="w-full border-2 h-10 mt-2 lg:mr-6">
+
+          </div>
+          <div className="flex flex-col">
+            <h1
+              className="text-5xl border-2 md:text-8xl font-bold text-primary-white"
+              data-aos="fade-right"
+            >
+              About Me
+            </h1>
+            <h2
+              className="text-md border-2 md:text-md text-primary-white font-semibold w-3/4 lg:w-full ml-auto"
+              data-aos="fade-right"
+            >
+              I'm an aspiring Full Stack Developer specializing in Web
+              Development, an enthusiastic thinker, and always looking for new
+              challenges to learn and grow.
+            </h2>
+          </div>
+        </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" className="-mb-1" viewBox="0 0 1440 320">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="-mb-1"
+        viewBox="0 0 1440 320"
+      >
         <path
           fill="#021526"
           fill-opacity="1"
